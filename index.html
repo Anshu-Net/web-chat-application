@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Web Chat Application</title>
+	<link rel="stylesheet" type="text/css" href="design.css"> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="chat.js"></script>
+</head>
+<body>
+<div class="container">
+<h1>WebChat</h1>
+	<main>
+		<div class="users">
+			<label for="userName">Username: </label>
+			<input type="text" id="userName" class="form-control" placeholder="username" maxlength="16">
+		</div>
+		<div class="chat">
+			<div class ="well well-lg" id="chatout"></div>
+			<input type="text" id="chatinput" class= "well well-sm" placeholder="enter text here" maxlength="360">
+			<button id="send" class="btn btn-info">Send</button>
+		</div>
+	</main>
+</div>
+</body>
+</html>
